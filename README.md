@@ -1,8 +1,10 @@
-# Add JsBridge Plugin to the WebView
+# Add JsBridge Plugin to the WebView Or X5 WebView
 
+[flutter_jsbridge_plugin for WebView Or X5 WebView](https://github.com/epoll-j/flutter_jsbridge_plugin)
 [A Flutter plugin that provides a JsBridge on WebView widget.](https://pub.dev/packages/bridge_webview_flutter)
 
 This plugin must introduce  [webview_flutter](https://pub.dev/packages/webview_flutter)
+This plugin must introduce  [webview_flutter_x5](https://pub.dev/packages/webview_flutter_x5)
 
 
 ## Usage
@@ -10,6 +12,8 @@ Add `flutter_jsbridge_plugin` as a [dependency in your pubspec.yaml file](https:
 ```
 dependencies:
   flutter_jsbridge_plugin: ^0.0.5
+    git: 
+      url: https://github.com/afirez/flutter_jsbridge_plugin.git
 ```
 ### Init JsBridge and register handler
 
@@ -48,4 +52,7 @@ WebView(
 ```
 
 ## JS Usage
-[js file](https://github.com/epoll-j/flutter_jsbridge_plugin/blob/master/JSBridge.js)
+[js file](https://github.com/afirez/flutter_jsbridge_plugin/blob/master/JSBridge.js)
+
+## Thanks
+[flutter_jsbridge_plugin](https://github.com/epoll-j/flutter_jsbridge_plugin)
